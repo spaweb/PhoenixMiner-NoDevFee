@@ -58,4 +58,5 @@ sudo node UpdatePools.js
 sudo node Install.js
 ```
 
-For any donation in ETH : 0xbdcc8Be66fE245D4b8428706768b41610009ec4e
+Donation in ETH : 0xbdcc8Be66fE245D4b8428706768b41610009ec4e
+For any donation : https://opencollective.com/qatest-inc
