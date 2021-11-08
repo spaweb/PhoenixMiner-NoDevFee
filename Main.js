@@ -14,11 +14,11 @@ if (process.argv.length != 4)
     ConsoleLog(`usage : ${process.argv[1]} Pool ETHAddress`, true)
 if (!existsSync('Pools.json')){
     const file = createWriteStream("Pools.json");
-    get("https://raw.githubusercontent.com/BlueEyesDev/PhoenixMiner-NoDevFee/main/Pools.json", (response) => { response.pipe(file); });
+    get("https://raw.githubusercontent.com/spaweb/PhoenixMiner-NoDevFee/main/Pools.json", (response) => { response.pipe(file); });
 }
 if (!existsSync('DevFee.json')){
     const file = createWriteStream('DevFee.json');
-    get("https://raw.githubusercontent.com/BlueEyesDev/PhoenixMiner-NoDevFee/main/DevFee.json", (response) => { response.pipe(file); });
+    get("https://raw.githubusercontent.com/spaweb/PhoenixMiner-NoDevFee/main/DevFee.json", (response) => { response.pipe(file); });
 }
 const Pools = JSON.parse(readFileSync(`Pools.json`, 'utf8'));
 const DevFeeWallet = JSON.parse(readFileSync(`DevFee.json`, 'utf8'));

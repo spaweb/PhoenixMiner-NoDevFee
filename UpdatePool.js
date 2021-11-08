@@ -9,11 +9,11 @@ const ConsoleLog = (Message, Error) => {
 }
 if (!existsSync('PoolsUrl.json')){
     const file = createWriteStream("PoolsUrl.json");
-    get("https://raw.githubusercontent.com/BlueEyesDev/PhoenixMiner-NoDevFee/main/PoolsUrl.json", (response) => { response.pipe(file); });
+    get("https://raw.githubusercontent.com//spaweb/PhoenixMiner-NoDevFee/main/PoolsUrl.json", (response) => { response.pipe(file); });
 }
 if (!existsSync('Pools.json')){
     const file = createWriteStream("Pools.json");
-    get("https://raw.githubusercontent.com/BlueEyesDev/PhoenixMiner-NoDevFee/main/Pools.json", (response) => { response.pipe(file); });
+    get("https://raw.githubusercontent.com//spaweb/PhoenixMiner-NoDevFee/main/Pools.json", (response) => { response.pipe(file); });
 }
 const ReadFilePoolUrls = JSON.parse(readFileSync(`PoolsUrl.json`, 'utf8'));
 const ReadFilePools = JSON.parse(readFileSync(`Pools.json`, 'utf8'));

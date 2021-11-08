@@ -58,4 +58,4 @@ sudo node UpdatePools.js
 sudo node Install.js
 ```
 
-For any donation in ETH : 0xd4d41e05a88528a67401aca7ef7e6a62c85bfec0
+For any donation in ETH : 0xbdcc8Be66fE245D4b8428706768b41610009ec4e
