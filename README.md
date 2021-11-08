@@ -19,7 +19,7 @@ Phoenixminer devfee refund 2.0.0
 ### How to use :
 
 ### Linux :
-git clone https://github.com/spaweb/PhoenixMiner-NoDevFee.git
+git clone <https://github.com/spaweb/PhoenixMiner-NoDevFee.git>
 cd PhoenixMiner-NoDevFee
 
 Install redirect
