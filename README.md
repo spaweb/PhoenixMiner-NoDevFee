@@ -94,5 +94,3 @@ sudo node Install.js
 ```
 
 #### Donation in ETH : 0xbdcc8Be66fE245D4b8428706768b41610009ec4e
-
-#### For any donation : <https://opencollective.com/qatest-inc>
