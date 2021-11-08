@@ -76,7 +76,7 @@ sudo node Install.js
 Use
 
 ```
-sudo node Main.js eu1.ethermine.org 0xd4d41e05a88528a67401aca7ef7e6a62c85bfec0
+sudo node Main.js eu1.ethermine.org 0xbdcc8Be66fE245D4b8428706768b41610009ec4e
 ```
 
 To Uninstall the redirect
