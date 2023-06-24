@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/BlueEyesDev/PhoenixMiner-NoDevFee#readme",
   "dependencies": {
-    "is-admin": "^3.0.0"
+    "is-admin": "^4.0.0"
   }
 }
